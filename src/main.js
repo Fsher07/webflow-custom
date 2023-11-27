@@ -1,8 +1,13 @@
-import animateTitle from './features/animateTitle'
-import createBadge from './features/createBasge'
+import Lenis from '@studio-freight/lenis'
 import './styles/style.css'
 
-console.log('Welcome to Vite + JS + Webflow!')
+const lenis = new Lenis()
 
-createBadge()
-animateTitle()
+lenis.on('scroll', () => {})
+
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)

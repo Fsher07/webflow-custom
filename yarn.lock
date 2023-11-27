@@ -84,6 +84,11 @@
     "estree-walker" "^2.0.1"
     "picomatch" "^2.2.2"
 
+"@studio-freight/lenis@^1.0.28":
+  "integrity" "sha512-+t2rKphnNCpaCuoSZjR3/c21wuuALlgb9ldwwKaGDsk9f6le7KXNYJisp5uJJC9Gz6FG37y+IH20OMNGGJqBXA=="
+  "resolved" "https://registry.npmjs.org/@studio-freight/lenis/-/lenis-1.0.28.tgz"
+  "version" "1.0.28"
+
 "@types/json5@^0.0.29":
   "integrity" "sha1-7ihweulOEdK4J7y+UnC86n8+ce4= sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ=="
   "resolved" "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
@@ -761,10 +766,10 @@
   dependencies:
     "type-fest" "^0.20.2"
 
-"gsap@^3.9.1":
-  "integrity" "sha512-JSGVYoC6da4pIjdF/yxFU6Rz8OojOIDkbooveZlfNg0+JIoFoRruyfWAEi6R/gUeNcuOiTqUIb0gi1nCNrHf8w=="
-  "resolved" "https://registry.npmjs.org/gsap/-/gsap-3.9.1.tgz"
-  "version" "3.9.1"
+"gsap@^3.12.2":
+  "integrity" "sha512-EkYnpG8qHgYBFAwsgsGEqvT1WUidX0tt/ijepx7z8EUJHElykg91RvW1XbkT59T0gZzzszOpjQv7SE41XuIXyQ=="
+  "resolved" "https://registry.npmjs.org/gsap/-/gsap-3.12.2.tgz"
+  "version" "3.12.2"
 
 "has-bigints@^1.0.1":
   "integrity" "sha512-LSBS2LjbNBTf6287JEbEzvJgftkF5qFkmCo9hDRpAzKhUOlJ+hx8dd4USs00SgsUNwc4617J9ki5YtEClM2ffA=="
