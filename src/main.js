@@ -20,6 +20,8 @@ const durations = [10, 15, 20, 14, 40, 25, 18, 12, 32, 16]
 
 let animatedBlocks = gsap.utils.toArray('.about-img-anim-block')
 
+console.log('wunderian')
+
 animatedBlocks.forEach((block, index) => {
   const randomEndOffset = 20 + durations[index] * 5
   gsap.fromTo(
@@ -31,8 +33,8 @@ animatedBlocks.forEach((block, index) => {
       clipPath: 'inset(0% -1px 0vh -1px)',
       scrollTrigger: {
         trigger: '.about-animate-blocks-wrapper',
-        start: `top top`,
-        end: `+=${randomEndOffset}%`,
+        start: `top bottom`,
+        end: `+=${randomEndOffset}% top`,
         scrub: true,
       },
     }
