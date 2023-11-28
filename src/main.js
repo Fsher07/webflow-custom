@@ -16,7 +16,7 @@ requestAnimationFrame(raf)
 
 gsap.registerPlugin(ScrollTrigger)
 
-const durations = [10, 15, 20, 14, 40, 25, 18, 12, 32, 16]
+const durations = [10, 15, 20, 14, 35, 25, 18, 12, 32, 16]
 
 let animatedBlocks = gsap.utils.toArray('.about-img-anim-block')
 
@@ -33,8 +33,8 @@ animatedBlocks.forEach((block, index) => {
       clipPath: 'inset(0% -1px 0vh -1px)',
       scrollTrigger: {
         trigger: '.about-animate-blocks-wrapper',
-        start: `top bottom`,
-        end: `+=${randomEndOffset}% top`,
+        start: `top bottom+=${13}%`,
+        end: `+=${randomEndOffset}%`,
         scrub: true,
       },
     }
