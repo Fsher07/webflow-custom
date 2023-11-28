@@ -33,7 +33,7 @@ animatedBlocks.forEach((block, index) => {
       clipPath: 'inset(0% -1px 0vh -1px)',
       scrollTrigger: {
         trigger: '.about-animate-blocks-wrapper',
-        start: `top bottom+=${13}%`,
+        start: `top top`,
         end: `+=${randomEndOffset}%`,
         scrub: true,
       },
